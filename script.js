@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    mapboxgl.accessToken = ${{ secrets.MAPBOX_TOKEN }};
+    mapboxgl.accessToken = "pk.eyJ1IjoibmV3dHJhbCIsImEiOiJjazJrcDY4Y2gxMmg3M2JvazU4OXV6NHZqIn0.VO5GkvBq_PSJHvX7T8H9jQ";
   
     const map = new mapboxgl.Map({
       container: 'map',
